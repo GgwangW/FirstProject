@@ -1,0 +1,31 @@
+package movie.controller;
+
+import java.awt.Container;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+
+public class IntroTitanic extends JFrame {
+
+	// 타이틀 및 내용글
+	JLabel title = new JLabel("타이타닉");
+	JLabel subtitle = new JLabel("타이타닉 Titanic");
+	JLabel cut = new JLabel("------------------------------------");
+	JLabel synopsis = new JLabel("- SYSNOPSIS -");
+	JLabel syn = new JLabel("<html><body style='text-align:left;'>'제이크 설리'와 '네이티리'가 이룬 가족이 겪게 되는 무자비한 위협과 살아남기 위해 떠나야 하는 긴 여정과 전투, 그리고 견뎌내야 할 상처에 대한 이야기를 그렸다.</body></html>");
+	JLabel outline = new JLabel("- OUTLINE -");
+	JLabel ol = new JLabel("<html><body style='text-align:left;'>아바타 시리즈의 두 번째 영화. 전작 이후 무려 13년 만의 후속작이다.</br>코로나19 팬데믹 발발 이후 첫 번째 천만 외화이자 두 번째 천만 영화이다.</body></html>");
+	
+	// 이미지
+	Container cPane;
+	// 로고
+	ImageIcon Logosmallicon; JLabel Logosmall;
+	// 포스터
+	ImageIcon Titanicicon; JLabel Titanic;
+
+	public static void main(String[] args) {
+
+	}
+
+}
